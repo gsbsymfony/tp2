@@ -29,3 +29,25 @@
               <a href="{{path('pg_gsb_frais_listefrais')}}" title="Consultation de mes fiches de frais">Mes fiches de frais</a>
            </li>
 #}
+
+{% block bloc1 %} 
+ <div id="contenu">
+    <h2>Choisir le salarié</h2>
+	<div id ="liste">
+	<FORM>
+	<SELECT name="nom" size="1">
+	<OPTION>Personnes  1
+	<OPTION>Personnes  2
+	<OPTION>Personnes  3
+	<OPTION>Personnes  4
+	<OPTION>Personnes  5
+	</SELECT>
+	</FORM>
+	</div>
+	<p>
+       <input id="ok" type="submit" value="Valider" size="20" />
+    </p> 
+</div>
+
+
+{% endblock %}    
